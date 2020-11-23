@@ -257,6 +257,7 @@ content {
 
 .judges {
   display: inline-block;
+  margin-bottom: 80px;
   /*margin:0 70px;margin-top:50px*/
 }
 
@@ -267,13 +268,13 @@ content {
 }
 
 .team-content h1 {
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 700;
   color: rgb(0, 192, 255);
 }
 
 .team-content p {
-  font-size: 25px;
+  font-size: 1rem;
   text-transform: uppercase;
   color: black;
   font-weight: 700;
@@ -539,7 +540,7 @@ anim .main .main-cent .line .load.active {
     width: 350px;
   }
   .judges img {
-    width: 300px !important;
+    width: 150px !important;
   }
   .team-content h1 {
     font-size: 45px;
@@ -801,7 +802,7 @@ anim .main .main-cent .line .load.active {
 }
 
 .judges img {
-  width: 300px !important;
+  width: 150px !important;
   filter: grayscale(0.75) !important;
   box-shadow: 0 30px 50px 0 rgba(0, 0, 0, 0.2);
 }
@@ -853,7 +854,7 @@ li {
 
 @media screen and (max-width: 900px) {
   .team-row .img {
-    max-width: 100%;
+    max-width: 35%;
   }
   .team-row .img img {
     max-width: 80%;
@@ -876,7 +877,7 @@ li {
 
 @media screen and (max-width: 600px) {
   .team-content p {
-    font-size: 16px;
+    font-size: 12px;
   }
 }
 @media screen and (min-width: 800px) {
