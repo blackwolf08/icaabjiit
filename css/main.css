@@ -795,6 +795,19 @@ anim .main .main-cent .line .load.active {
   text-align: right;
 }
 
+.content-gray {
+  background-color: #eee;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ul-guidelines li {
+  margin-left: 10px;
+  list-style-type: circle;
+}
+
 .img img {
   width: 500px;
   filter: grayscale(100);
