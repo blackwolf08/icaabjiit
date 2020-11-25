@@ -54,8 +54,14 @@ lines .wrap {
   height: 100%;
   width: 100%;
   margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   overflow: hidden;
   text-align: center;
@@ -77,7 +83,9 @@ lines .wrap {
 
 .sponsor-img {
   height: 100px;
+  -o-object-position: center center;
   object-position: center center;
+  -o-object-fit: contain;
   object-fit: contain;
 }
 
@@ -101,7 +109,9 @@ lines .wrap {
   z-index: -10;
   overflow-x: hidden;
   overflow-y: hidden;
+  -o-object-fit: cover;
   object-fit: cover;
+  -o-object-position: center center;
   object-position: center center;
 }
 
@@ -151,7 +161,9 @@ content {
   width: 100%;
 }
 .car-img {
+  -o-object-fit: cover;
   object-fit: cover;
+  -o-object-position: center center;
   object-position: center center;
 }
 
@@ -169,8 +181,10 @@ content {
   color: black;
   font-weight: 700;
   top: 0;
+  -ms-transform: rotate(90deg);
   transform: rotateZ(90deg);
   -webkit-transform: rotateZ(90deg);
+  -ms-transform-origin: bottom left;
   transform-origin: bottom left;
   -webkit-transform-origin: bottom left;
   -webkit-font-smoothing: antialiased;
@@ -429,10 +443,14 @@ button {
   cursor: pointer;
   color: white;
   padding: 12px;
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
   transition: all 0.2s linear;
 }
 
 button:active {
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
   transition: all 0.2s linear;
   border-bottom: 0;
 }
@@ -468,6 +486,8 @@ anim .main .main-cent .line {
   margin: 0 auto;
   margin-top: 30px;
   background: #010f23;
+  -webkit-transition: all 5s ease-in;
+  -o-transition: all 5s ease-in;
   transition: all 5s ease-in;
 }
 
@@ -479,6 +499,8 @@ anim .main .main-cent .line .load {
 anim .main .main-cent .line .load.active {
   background: white;
   width: 100%;
+  -webkit-transition: width 7s ease-in;
+  -o-transition: width 7s ease-in;
   transition: width 7s ease-in;
 }
 
@@ -794,10 +816,16 @@ anim .main .main-cent .line .load.active {
 }
 
 .team-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   display: flexbox;
+  -ms-flex-line-pack: justify;
   align-content: space-between;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
 
@@ -817,8 +845,15 @@ anim .main .main-cent .line .load.active {
 .content-gray {
   background-color: #eee;
   padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 
@@ -829,13 +864,17 @@ anim .main .main-cent .line .load.active {
 
 .img img {
   width: 500px;
+  -webkit-filter: grayscale(100);
   filter: grayscale(100);
+  -webkit-box-shadow: 0 50px 80px 0 rgba(0, 0, 0, 0.2);
   box-shadow: 0 50px 80px 0 rgba(0, 0, 0, 0.2);
 }
 
 .judges img {
   width: 150px !important;
+  -webkit-filter: grayscale(0.75) !important;
   filter: grayscale(0.75) !important;
+  -webkit-box-shadow: 0 30px 50px 0 rgba(0, 0, 0, 0.2);
   box-shadow: 0 30px 50px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -849,7 +888,11 @@ li {
 }
 
 .team-social ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   float: left;
 }
@@ -865,6 +908,8 @@ li {
 
 .team-row .img.right .team-social ul {
   float: right;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
   justify-content: flex-end;
 }
 
@@ -934,6 +979,8 @@ li {
 }
 
 .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   flex-wrap: wrap;
   -ms-flex-wrap: wrap;
