@@ -368,7 +368,14 @@ content {
 }
 
 .sponsors img {
-  width: 120px;
+  width: 200px;
+  display: inline-block;
+  margin: 15px 40px;
+  vertical-align: middle;
+}
+
+.jp-img {
+  width: 400px;
   display: inline-block;
   margin: 15px 40px;
   vertical-align: middle;
@@ -647,7 +654,10 @@ anim .main .main-cent .line .load.active {
     width: 90%;
   }
   .sponsors img {
-    width: 80px;
+    width: 200px;
+  }
+  .jp-img {
+    width: 200px;
   }
   .img {
     width: 90%;
