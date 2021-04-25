@@ -384,14 +384,14 @@ content {
 .logo {
   width: 200px;
   position: absolute;
-  left: 3rem;
+  left: 1rem;
   top:9rem;
 }
 
 .logo1 {
   width: 200px;
   position: absolute;
-  right: 3rem;
+  right: 1rem;
   top:8rem;
 }
 
@@ -470,6 +470,24 @@ button:active {
   -o-transition: all 0.2s linear;
   transition: all 0.2s linear;
   border-bottom: 0;
+}
+
+.navigation{
+  background-color: rgb(40, 195, 238);
+}
+
+.list-item{
+  display: inline-block;
+  padding-right: 1rem;
+}
+
+.navbar{
+  color:white;
+  font-size: 1.3rem;
+}
+
+.navtab{
+  margin: 0 auto;
 }
 
 anim {
