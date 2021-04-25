@@ -90,7 +90,7 @@ lines .wrap {
 }
 
 .main-header-div {
-  padding: 1rem;
+  padding: 10rem;
 }
 
 .hero-img {
@@ -383,6 +383,16 @@ content {
 
 .logo {
   width: 200px;
+  position: absolute;
+  left: 3rem;
+  top:9rem;
+}
+
+.logo1 {
+  width: 200px;
+  position: absolute;
+  right: 3rem;
+  top:8rem;
 }
 
 footer {
@@ -596,6 +606,12 @@ anim .main .main-cent .line .load.active {
   }
 }
 
+@media screen and (max-width: 1590px) {
+  .logo1 {
+    width: 150px;
+  }
+}
+
 @media screen and (max-width: 900px) {
   lines .wrap {
     border-right: 1.5px solid rgba(0, 0, 0, 0.04);
@@ -731,6 +747,12 @@ anim .main .main-cent .line .load.active {
   .logo {
     width: 80px;
   }
+
+  @media screen and (max-width: 340px) {
+    .logo1 {
+      width: 80px;
+    }
+
   .header-text {
     font-size: 1rem !important;
     color: #fff;
@@ -747,6 +769,12 @@ anim .main .main-cent .line .load.active {
   .logo {
     width: 120px;
   }
+
+  @media screen and (max-width: 380px) {
+    .logo1 {
+      width: 120px;
+    }
+
   .header-text {
     font-size: 1rem !important;
     color: #fff;
