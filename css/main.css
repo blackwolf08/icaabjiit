@@ -90,7 +90,7 @@ lines .wrap {
 }
 
 .main-header-div {
-  padding: 10rem;
+  padding: 1rem;
 }
 
 .hero-img {
@@ -157,6 +157,10 @@ content {
   margin-top: 400px;
 }
 
+.past-photo{
+  margin-top: 150px;
+}
+
 .car-container {
   width: 100%;
 }
@@ -206,7 +210,7 @@ content {
 }
 
 .head {
-  margin-top: -20px;
+  margin-top: 0;
 }
 
 .head p {
@@ -238,6 +242,7 @@ content {
   font-weight: 800;
   font-family: "Roboto Condensed";
   margin-left: 150px;
+  margin-bottom: 30px;
 }
 
 .zindex {
@@ -297,6 +302,8 @@ content {
   margin-top: -33px;
   display: inline-block;
 }
+
+
 
 .judge-content {
   text-align: left;
@@ -384,15 +391,15 @@ content {
 .logo {
   width: 200px;
   position: absolute;
-  left: 1rem;
-  top:9rem;
+  left: 2%;
+  top:3%;
 }
 
 .logo1 {
   width: 200px;
   position: absolute;
-  right: 1rem;
-  top:8rem;
+  right: 2%;
+  top:3%;
 }
 
 footer {
@@ -474,6 +481,7 @@ button:active {
 
 .navigation{
   background-color: rgb(40, 195, 238);
+  margin-top: 3rem;
 }
 
 .list-item{
@@ -483,7 +491,7 @@ button:active {
 
 .navbar{
   color:white;
-  font-size: 1.3rem;
+  font-size: 1.7vmax;
 }
 
 .navtab{
@@ -763,13 +771,25 @@ anim .main .main-cent .line .load.active {
 
 @media screen and (max-width: 340px) {
   .logo {
-    width: 80px;
+    width: 70px;
   }
-
+}
   @media screen and (max-width: 340px) {
     .logo1 {
-      width: 80px;
+      width: 70px;
     }
+}
+
+@media screen and (max-width: 600px) {
+  .logo {
+    width: 110px;
+  }
+}
+  @media screen and (max-width: 600px) {
+    .logo1 {
+      width: 110px;
+    }
+}
 
   .header-text {
     font-size: 1rem !important;
@@ -785,14 +805,15 @@ anim .main .main-cent .line .load.active {
 
 @media screen and (max-width: 380px) {
   .logo {
-    width: 120px;
+    width: 90px;
   }
+}
 
   @media screen and (max-width: 380px) {
     .logo1 {
-      width: 120px;
+      width: 90px;
     }
-
+}
   .header-text {
     font-size: 1rem !important;
     color: #fff;
@@ -905,13 +926,20 @@ anim .main .main-cent .line .load.active {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -ms-box-orient: vertical;
   -webkit-box-direction: normal;
+  -moz-box-direction: normal;
+  -ms-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
   -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-box-align: center;
   -ms-flex-align: center;
   align-items: center;
 }
+
 
 .ul-guidelines li {
   margin-left: 10px;
