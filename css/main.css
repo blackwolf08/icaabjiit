@@ -6,6 +6,31 @@
   color: #000;
 }
 
+.impDates{
+  width: 20%;
+  position: absolute;
+  background-color: white;
+  top:10%;
+  left:3%;
+  font-size: 2.4vmin;
+  height: 80%;
+}
+
+@media screen and (max-width: 800px){
+  .impDates{
+    position: absolute;
+    background-color: white;
+    top:10%;
+    left:3%;
+    font-size: 6px;
+  }
+}
+
+
+.item{
+  position: relative;
+}
+
 body {
   color: black;
   font-family: "Oswald";
