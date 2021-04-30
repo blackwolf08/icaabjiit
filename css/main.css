@@ -9,23 +9,27 @@
 .impDates{
   width: 20%;
   position: absolute;
-  background-color: white;
+  background-color: #edffec;
   top:10%;
   left:3%;
   font-size: 2.4vmin;
   height: 80%;
+
 }
 
 @media screen and (max-width: 800px){
   .impDates{
     position: absolute;
-    background-color: white;
+    background-color: #edffec;
     top:10%;
     left:3%;
     font-size: 8px;
   }
 }
 
+.impItem{
+  color:#4b778d;
+}
 
 .item{
   position: relative;
@@ -52,7 +56,9 @@ body {
   outline: none;
 }
 
-a,
+a{
+  color: #28b5b5;
+}
 a:hover,
 a:focus,
 a:clicked {
@@ -148,12 +154,12 @@ lines .wrap {
 .main h1 {
   letter-spacing: 2px;
   font-size: 12.3em;
-  color: #2c398f;
+  color: #4b778d;
   font-weight: 800;
 }
 
 .main h1 span {
-  color: #2c398f;
+  color: #4b778d;
 }
 
 .main {
@@ -315,7 +321,7 @@ content {
 .team-content h1 {
   font-size: 40px;
   font-weight: 700;
-  color: rgb(0, 192, 255);
+  color: #8fd9a8;
 }
 
 .team-content p {
@@ -442,7 +448,10 @@ footer .footer {
   padding: 50px 0;
   margin-top: -15px;
   text-align: center;
-  background: #193b63;
+  /* background: #193b63; */
+  /* background-image: url("Abstract-Envelope.svg"); */
+  background-image: url("cool-background.png");
+
 }
 
 footer .footer .social a i {
@@ -480,13 +489,13 @@ footer .footer .social a i {
 }
 
 button {
-  background: rgb(40, 195, 238);
+  background: #8fd9a8;
   width: 280px;
   border: 0;
   font-size: 17px;
   font-weight: 700;
   letter-spacing: 1px;
-  border-bottom: 5px solid rgb(25, 91, 157);
+  border-bottom: 5px solid #4b778d;
   border-radius: 10px;
   margin-top: 10px;
   cursor: pointer;
@@ -505,7 +514,7 @@ button:active {
 }
 
 .navigation{
-  background-color: rgb(40, 195, 238);
+  background-color: #8fd9a8;
   margin-top: 3rem;
 }
 
@@ -981,10 +990,10 @@ anim .main .main-cent .line .load.active {
 
 .judges img {
   width: 150px !important;
-  -webkit-filter: grayscale(0.75) !important;
-  filter: grayscale(0.75) !important;
+  -webkit-filter: grayscale(0) !important;
+  filter: grayscale(0) !important; */
   -webkit-box-shadow: 0 30px 50px 0 rgba(0, 0, 0, 0.2);
-  box-shadow: 0 30px 50px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 30px 50px 0 rgba(0, 0, 0, 0.2); */
 }
 
 .img.right {
