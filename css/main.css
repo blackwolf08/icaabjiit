@@ -189,7 +189,7 @@ content {
 }
 
 .past-photo{
-  margin-top: 150px;
+  margin-top: 50px;
 }
 
 .car-container {
@@ -422,14 +422,16 @@ content {
 .logo {
   width: 200px;
   position: absolute;
+  position: -webkit-absolute;
   left: 2%;
   top:3%;
+
 }
 
 .logo1 {
-  width: 200px;
+  width: 120px;
   position: absolute;
-  right: 2%;
+  right: 5%;
   top:3%;
 }
 
@@ -668,7 +670,7 @@ anim .main .main-cent .line .load.active {
 
 @media screen and (max-width: 1590px) {
   .logo1 {
-    width: 150px;
+    width: 120px;
   }
 }
 
@@ -810,7 +812,7 @@ anim .main .main-cent .line .load.active {
 }
   @media screen and (max-width: 340px) {
     .logo1 {
-      width: 70px;
+      width: 50px;
     }
 }
 
@@ -821,7 +823,7 @@ anim .main .main-cent .line .load.active {
 }
   @media screen and (max-width: 600px) {
     .logo1 {
-      width: 110px;
+      width: 90px;
     }
 }
 
@@ -845,7 +847,7 @@ anim .main .main-cent .line .load.active {
 
   @media screen and (max-width: 380px) {
     .logo1 {
-      width: 90px;
+      width: 70px;
     }
 }
   .header-text {
