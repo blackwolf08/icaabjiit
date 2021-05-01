@@ -24,6 +24,7 @@
     top:10%;
     left:3%;
     font-size: 8px;
+    display: none;
   }
 }
 
@@ -189,7 +190,7 @@ content {
 }
 
 .past-photo{
-  margin-top: 5%;
+  margin-top: 15%;
 }
 
 .car-container {
@@ -422,7 +423,6 @@ content {
 .logo {
   width: 200px;
   position: absolute;
-  position: -webkit-absolute;
   left: 2%;
   top:3%;
 
@@ -837,7 +837,7 @@ anim .main .main-cent .line .load.active {
     font-size: 1rem !important;
     color: #193b63;
   }
-}
+
 
 @media screen and (max-width: 380px) {
   .logo {
@@ -860,7 +860,7 @@ anim .main .main-cent .line .load.active {
     font-size: 1rem !important;
     color: #193b63;
   }
-}
+
 
 @media screen and (max-width: 1000px) {
   #phnrem {
@@ -962,15 +962,12 @@ anim .main .main-cent .line .load.active {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
-  -moz-box-orient: vertical;
   -ms-box-orient: vertical;
   -webkit-box-direction: normal;
-  -moz-box-direction: normal;
   -ms-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
   -webkit-box-align: center;
-  -moz-box-align: center;
   -ms-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -993,9 +990,9 @@ anim .main .main-cent .line .load.active {
 .judges img {
   width: 150px !important;
   -webkit-filter: grayscale(0) !important;
-  filter: grayscale(0) !important; */
+  filter: grayscale(0) !important;
   -webkit-box-shadow: 0 30px 50px 0 rgba(0, 0, 0, 0.2);
-  box-shadow: 0 30px 50px 0 rgba(0, 0, 0, 0.2); */
+  box-shadow: 0 30px 50px 0 rgba(0, 0, 0, 0.2);
 }
 
 .img.right {
