@@ -6,6 +6,35 @@
   color: #000;
 }
 
+.impDates{
+  width: 20%;
+  position: absolute;
+  background-color: #edffec;
+  top:10%;
+  left:3%;
+  font-size: 2.4vmin;
+  height: 80%;
+
+}
+
+@media screen and (max-width: 800px){
+  .impDates{
+    position: absolute;
+    background-color: #edffec;
+    top:10%;
+    left:3%;
+    font-size: 8px;
+  }
+}
+
+.impItem{
+  color:#4b778d;
+}
+
+.item{
+  position: relative;
+}
+
 body {
   color: black;
   font-family: "Oswald";
@@ -27,7 +56,9 @@ body {
   outline: none;
 }
 
-a,
+a{
+  color: #28b5b5;
+}
 a:hover,
 a:focus,
 a:clicked {
@@ -123,12 +154,12 @@ lines .wrap {
 .main h1 {
   letter-spacing: 2px;
   font-size: 12.3em;
-  color: #2c398f;
+  color: #4b778d;
   font-weight: 800;
 }
 
 .main h1 span {
-  color: #2c398f;
+  color: #4b778d;
 }
 
 .main {
@@ -155,6 +186,10 @@ content {
   position: relative;
   background: transparent;
   margin-top: 400px;
+}
+
+.past-photo{
+  margin-top: 150px;
 }
 
 .car-container {
@@ -206,7 +241,7 @@ content {
 }
 
 .head {
-  margin-top: -20px;
+  margin-top: 0;
 }
 
 .head p {
@@ -238,6 +273,7 @@ content {
   font-weight: 800;
   font-family: "Roboto Condensed";
   margin-left: 150px;
+  margin-bottom: 30px;
 }
 
 .zindex {
@@ -285,7 +321,7 @@ content {
 .team-content h1 {
   font-size: 40px;
   font-weight: 700;
-  color: rgb(0, 192, 255);
+  color: #8fd9a8;
 }
 
 .team-content p {
@@ -297,6 +333,8 @@ content {
   margin-top: -33px;
   display: inline-block;
 }
+
+
 
 .judge-content {
   text-align: left;
@@ -383,6 +421,16 @@ content {
 
 .logo {
   width: 200px;
+  position: absolute;
+  left: 2%;
+  top:3%;
+}
+
+.logo1 {
+  width: 200px;
+  position: absolute;
+  right: 2%;
+  top:3%;
 }
 
 footer {
@@ -400,7 +448,10 @@ footer .footer {
   padding: 50px 0;
   margin-top: -15px;
   text-align: center;
-  background: #193b63;
+  /* background: #193b63; */
+  /* background-image: url("Abstract-Envelope.svg"); */
+  background-image: url("cool-background.png");
+
 }
 
 footer .footer .social a i {
@@ -438,13 +489,13 @@ footer .footer .social a i {
 }
 
 button {
-  background: rgb(40, 195, 238);
+  background: #8fd9a8;
   width: 280px;
   border: 0;
   font-size: 17px;
   font-weight: 700;
   letter-spacing: 1px;
-  border-bottom: 5px solid rgb(25, 91, 157);
+  border-bottom: 5px solid #4b778d;
   border-radius: 10px;
   margin-top: 10px;
   cursor: pointer;
@@ -460,6 +511,25 @@ button:active {
   -o-transition: all 0.2s linear;
   transition: all 0.2s linear;
   border-bottom: 0;
+}
+
+.navigation{
+  background-color: #8fd9a8;
+  margin-top: 3rem;
+}
+
+.list-item{
+  display: inline-block;
+  padding-right: 1rem;
+}
+
+.navbar{
+  color:white;
+  font-size: 1.7vmax;
+}
+
+.navtab{
+  margin: 0 auto;
 }
 
 anim {
@@ -592,6 +662,12 @@ anim .main .main-cent .line .load.active {
 
 @media screen and (max-width: 1590px) {
   .logo {
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 1590px) {
+  .logo1 {
     width: 150px;
   }
 }
@@ -729,8 +805,26 @@ anim .main .main-cent .line .load.active {
 
 @media screen and (max-width: 340px) {
   .logo {
-    width: 80px;
+    width: 70px;
   }
+}
+  @media screen and (max-width: 340px) {
+    .logo1 {
+      width: 70px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+  .logo {
+    width: 110px;
+  }
+}
+  @media screen and (max-width: 600px) {
+    .logo1 {
+      width: 110px;
+    }
+}
+
   .header-text {
     font-size: 1rem !important;
     color: #fff;
@@ -745,8 +839,15 @@ anim .main .main-cent .line .load.active {
 
 @media screen and (max-width: 380px) {
   .logo {
-    width: 120px;
+    width: 90px;
   }
+}
+
+  @media screen and (max-width: 380px) {
+    .logo1 {
+      width: 90px;
+    }
+}
   .header-text {
     font-size: 1rem !important;
     color: #fff;
@@ -859,13 +960,20 @@ anim .main .main-cent .line .load.active {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -ms-box-orient: vertical;
   -webkit-box-direction: normal;
+  -moz-box-direction: normal;
+  -ms-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
   -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-box-align: center;
   -ms-flex-align: center;
   align-items: center;
 }
+
 
 .ul-guidelines li {
   margin-left: 10px;
@@ -882,10 +990,10 @@ anim .main .main-cent .line .load.active {
 
 .judges img {
   width: 150px !important;
-  -webkit-filter: grayscale(0.75) !important;
-  filter: grayscale(0.75) !important;
+  -webkit-filter: grayscale(0) !important;
+  filter: grayscale(0) !important; */
   -webkit-box-shadow: 0 30px 50px 0 rgba(0, 0, 0, 0.2);
-  box-shadow: 0 30px 50px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 30px 50px 0 rgba(0, 0, 0, 0.2); */
 }
 
 .img.right {
