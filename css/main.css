@@ -9,7 +9,6 @@
 .impDates{
   width: 20%;
   position: absolute;
-  background-color: #edffec;
   top:10%;
   left:3%;
   font-size: 2.4vmin;
@@ -155,7 +154,7 @@ lines .wrap {
 .main h1 {
   letter-spacing: 2px;
   font-size: 12.3em;
-  color: #4b778d;
+  color: #2d635a;
   font-weight: 800;
 }
 
@@ -199,6 +198,7 @@ content {
 .car-img {
   -o-object-fit: cover;
   object-fit: cover;
+  width: 100%;
   -o-object-position: center center;
   object-position: center center;
 }
@@ -246,7 +246,7 @@ content {
 }
 
 .head p {
-  font-size: 25px;
+  font-size: 45px;
   text-transform: uppercase;
   color: black;
   margin-left: 5px;
@@ -266,7 +266,7 @@ content {
 }
 
 .text {
-  font-size: 20px;
+  font-size: 28px;
   color: black;
   margin-top: 30px;
   line-height: 170%;
@@ -275,6 +275,7 @@ content {
   font-family: "Roboto Condensed";
   margin-left: 150px;
   margin-bottom: 30px;
+  text-align: justify;
 }
 
 .zindex {
@@ -284,13 +285,13 @@ content {
 }
 
 .title {
-  font-size: 400px;
+  font-size:220px;
   color: rgba(128, 128, 128, 0.337);
-  opacity: 0.2;
+  opacity: 0.4;
   font-weight: 700;
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 15vh;
+  right: 1vh;
   z-index: -1;
 }
 
@@ -300,7 +301,7 @@ content {
 }
 
 .img {
-  padding: 100px 0;
+  padding:100px 0;
   float: left;
   display: block;
   width: 100%;
@@ -421,7 +422,7 @@ content {
 }
 
 .logo {
-  width: 200px;
+  height: 200px;
   position: absolute;
   left: 2%;
   top:3%;
@@ -429,7 +430,7 @@ content {
 }
 
 .logo1 {
-  width: 120px;
+  height: 200px;
   position: absolute;
   right: 5%;
   top:3%;
@@ -516,7 +517,7 @@ button:active {
 }
 
 .navigation{
-  background-color: #8fd9a8;
+  background-color: #63c5da;
   margin-top: 3rem;
 }
 
@@ -605,6 +606,32 @@ anim .main .main-cent .line .load.active {
 
 .track-wrap p.name {
   color: black;
+}
+
+.insText
+{
+  background: linear-gradient(0deg, #000000, #323232);
+  background-clip: border-box;
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.depText
+{
+  background: linear-gradient(0deg, #0a1172, #63c5da);
+  background-clip: border-box;
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 100px;
+}
+.confText
+{
+  background: linear-gradient(0deg, #00c000, #30ff60);
+  background-clip: border-box;
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 @media screen and (max-width: 1690px) {
@@ -967,16 +994,26 @@ anim .main .main-cent .line .load.active {
   -ms-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-align: center;
-  -ms-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+  -webkit-box-align:end;
+  -ms-box-align: end;
+  -ms-flex-align:end;
+  align-items:end;
 }
 
 
 .ul-guidelines li {
   margin-left: 10px;
   list-style-type: circle;
+
+}
+
+#offContainer
+{
+  display:none;
+}
+#onContainer
+{
+  display:none;
 }
 
 .img img {
@@ -988,7 +1025,7 @@ anim .main .main-cent .line .load.active {
 }
 
 .judges img {
-  width: 150px !important;
+  width: 180px !important;
   -webkit-filter: grayscale(0) !important;
   filter: grayscale(0) !important;
   -webkit-box-shadow: 0 30px 50px 0 rgba(0, 0, 0, 0.2);
