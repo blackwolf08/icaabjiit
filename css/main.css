@@ -12,21 +12,12 @@
   bottom:0%;
   right:3%;
   font-size: 2.4vmin;
-  height: 400px;
+  height: 30%;
   margin-top: 20px;
-  clear: both;
+  clear: top;
+  /* background: black; */
 }
 
-@media screen and (max-width: 800px){
-  .impDates{
-    position: absolute;
-    background-color: #edffec;
-    bottom:10%;
-    right:3%;
-    font-size: 8px;
-    display: none;
-  }
-}
 
 .impItem{
   color:#4b778d;
@@ -83,7 +74,7 @@ lines .wrap {
 }
 
 .main {
-  height: 130%;
+  height: 150%;
   width: 100%;
   margin: 0 auto;
   display: -webkit-box;
@@ -190,7 +181,14 @@ content {
 }
 
 .past-photo{
-  margin-top: 400px;
+  margin-top: 50vh;
+}
+
+#container-fluid-home
+{
+  padding-top: 4vh;
+  width: 50%;
+  z-index: 9999;
 }
 
 .car-container {
@@ -213,6 +211,14 @@ content {
   width: 60%;
   margin: 0 auto;
   position: relative;
+}
+.carousel-control-prev
+{
+  z-index: 9999;
+}
+.carousel-control-next
+{
+  z-index: 9999;
 }
 
 .juggad,
@@ -556,7 +562,7 @@ anim .wrap {
   position: fixed;
   top: 0;
   border: 0;
-  z-index: 999999999999999;
+  z-index: 999;
 }
 
 anim .main .main-cent h1 {
@@ -569,7 +575,7 @@ anim .main .main-cent h1 {
 anim .main .main-cent .line {
   width: 200px;
   height: 4px;
-  margin: 0 auto;
+  margin: 0;
   margin-top: 30px;
   background: #010f23;
   -webkit-transition: all 5s ease-in;
@@ -835,6 +841,25 @@ anim .main .main-cent .line .load.active {
     display: inline-block;
     /* margin: 0 10px;
         margin-top: 50px */
+  }
+}
+
+@media screen and (max-width: 800px){
+  .impDates{
+    position: absolute;
+    background-color: #edffec;
+    bottom:10%;
+    right:3%;
+    font-size: 8px;
+    display: none;
+  }
+  .past-photo
+  {
+    margin-top:0;
+  }
+  .main
+  {
+    height:100%;
   }
 }
 
