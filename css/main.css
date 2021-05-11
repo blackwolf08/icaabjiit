@@ -739,6 +739,10 @@ anim .main .main-cent .line .load.active {
   {
     display: none;
   }
+  .car-container
+  {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 900px) {
