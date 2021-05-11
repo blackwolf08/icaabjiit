@@ -15,7 +15,7 @@
   height: 30%;
   margin-top: 20px;
   clear: top;
-  /* background: black; */
+ background: radial-gradient( #30ff60, #63c5da); 
 }
 
 
@@ -187,7 +187,7 @@ content {
 #container-fluid-home
 {
   padding-top: 4vh;
-  width: 70%;
+  width: 68%;
   z-index: 9999;
 }
 
@@ -225,10 +225,10 @@ content {
 .collab {
   font-size: 22px;
   position: absolute;
-  right: 0;
+  right: 10%;
   color: black;
   font-weight: 700;
-  top: 0;
+  top: 15%;
   margin-left: 5vh;
   -ms-transform: rotate(90deg);
   transform: rotateZ(90deg);
@@ -435,7 +435,7 @@ content {
 }
 
 .logo {
-  height: 200px;
+  height: 10%;
   position: absolute;
   left: 2%;
   top:3%;
@@ -443,10 +443,29 @@ content {
 }
 
 .logo1 {
-  height: 200px;
+  height: 12%;
   position: absolute;
-  right: 5%;
+  right: 3%;
   top:3%;
+}
+
+.logowrapper
+{
+  width: 100;
+}
+.logo-sch
+{
+  height: 15vh;
+  float: left;
+  top: 0%;
+  right: 0%;
+}
+.logo1-sch
+{
+  height: 15vh;
+  float: right;
+  top: 0;
+  left: 0;
 }
 
 footer {
@@ -658,9 +677,9 @@ anim .main .main-cent .line .load.active {
     font-size: 1.2rem;
     color: #193b63;
   }
-  .logo {
+  /* .logo {
     width: 150pc;
-  }
+  } */
   .main-wrap h1 {
     font-size: 100px;
   }
@@ -702,7 +721,7 @@ anim .main .main-cent .line .load.active {
   }
 }
 
-@media screen and (max-width: 1590px) {
+/* @media screen and (max-width: 1590px) {
   .logo {
     width: 150px;
   }
@@ -711,6 +730,14 @@ anim .main .main-cent .line .load.active {
 @media screen and (max-width: 1590px) {
   .logo1 {
     width: 120px;
+  }
+} */
+
+@media screen and (max-width: 1000px) 
+{
+  .juggad
+  {
+    display: none;
   }
 }
 
@@ -724,9 +751,9 @@ anim .main .main-cent .line .load.active {
   body {
     overflow-x: hidden;
   }
-  .logo {
+  /* .logo {
     width: 150px;
-  }
+  } */
   .main-wrap .content {
     width: 90%;
   }
@@ -854,6 +881,10 @@ anim .main .main-cent .line .load.active {
     font-size: 8px;
     display: none;
   }
+  .car-container
+  {
+    display: none;
+  }
   .past-photo
   {
     margin-top:0;
@@ -875,7 +906,7 @@ anim .main .main-cent .line .load.active {
     }
 }
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
   .logo {
     width: 110px;
   }
@@ -884,7 +915,7 @@ anim .main .main-cent .line .load.active {
     .logo1 {
       width: 90px;
     }
-}
+} */
 
   .header-text {
     font-size: 1rem !important;
