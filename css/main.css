@@ -49,7 +49,7 @@ body {
 }
 
 a{
-  color: #28b5b5;
+  color: #4169E1;
 }
 a:hover,
 a:focus,
@@ -421,10 +421,14 @@ content {
 }
 
 .sponsors img {
-  width: 200px;
+  width: 180px;
   display: inline-block;
-  margin: 15px 40px;
+  margin: 4vh 0 4vh 0;
   vertical-align: middle;
+}
+#vsrd
+{
+  width: 220px;
 }
 
 .jp-img {
