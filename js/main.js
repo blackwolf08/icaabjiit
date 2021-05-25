@@ -108,6 +108,3 @@ const showOffline = function () {
 
 document.getElementById("onPart").addEventListener("click", showOnline);
 document.getElementById("offPart").addEventListener("click", showOffline);
-
-
-
