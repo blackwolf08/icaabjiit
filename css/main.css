@@ -177,7 +177,7 @@ content {
   width: 100%;
   position: relative;
   background: transparent;
-  margin-top: 400px;
+  margin-top:200px;
 }
 
 .past-photo{
@@ -251,7 +251,7 @@ content {
 }
 
 .main-wrap h1 {
-  font-size: 180px;
+  font-size: 130px;
 }
 
 .head {
