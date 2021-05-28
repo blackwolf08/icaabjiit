@@ -27,6 +27,142 @@
   position: relative;
 }
 
+/* Experimental Components */
+.date-table {
+  text-align: center;
+  overflow: hidden;
+  margin: 20px;
+  height: auto;
+  background: #fff;
+  box-sizing: border-box;
+  box-shadow: inset 0 0 40px rgba(0, 0, 0, 0.2), 0 20px 50px rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+}
+.date-table .date-head {
+  /* padding: 10px; */
+  background: linear-gradient(45deg, #30ff60, #63c5da);
+  border-bottom-left-radius: 100%;
+  border-bottom-right-radius: 100%;
+}
+
+.date-table .date-head h4 {
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-weight: 700;
+}
+.date-table .date-head h2 {
+  margin: 0;
+  padding: 0 0 20px 0;
+  font-size: 36px;
+  color: #fff;
+}
+.date-content {
+  position: relative;
+}
+.date-content ul {
+  position: relative;
+  margin: 0;
+  padding: 20px 0;
+  height: auto;
+}
+.date-content ul li {
+  list-style: none;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 10px 0;
+  color: #111;
+  font-weight: bold;
+  /*cursor: pointer;*/
+  transition: 0.5s;
+}
+
+.date-content ul li p {
+  margin-top: 10px;
+}
+
+.col-sm-4:nth-child(2) .price-table {
+  transform: scale(2.1);
+}
+
+.imp-dates {
+  margin-top: 40px;
+}
+
+.imp-dates h2 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+#active a {
+  color: #c0113a;
+}
+
+/* .dates{
+  padding: 0 1%;
+} */
+
+#portfolio {
+  background: #fff;
+  padding: 30px 0;
+}
+
+#portfolio .portfolio-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  -webkit-transition: all ease-in-out 0.4s;
+  transition: all ease-in-out 0.4s;
+}
+
+#portfolio .portfolio-item {
+  overflow: hidden;
+  position: relative;
+  padding: 0;
+  vertical-align: middle;
+  text-align: center;
+}
+
+#portfolio .portfolio-item h2 {
+  color: #ffffff;
+  font-size: 24px;
+  margin: 0;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+
+#portfolio .portfolio-item img {
+  -webkit-transition: all ease-in-out 0.4s;
+  transition: all ease-in-out 0.4s;
+  width: 100%;
+}
+
+#portfolio .portfolio-item:hover img {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+#portfolio .portfolio-item:hover .portfolio-overlay {
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+#portfolio .portfolio-info {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+/* Experiment Ends */
+
 body {
   color: black;
   font-family: "Oswald";
@@ -140,7 +276,7 @@ lines .wrap {
 
 .main .main-cent {
   width: 100%;
-  z-index: 999;
+  /* z-index: 999; */
 }
 
 .main h1 {
@@ -154,9 +290,9 @@ lines .wrap {
   color: #4b778d;
 }
 
-.main {
-  z-index: 999;
-}
+/* .main {
+  z-index: 9;
+} */
 
 content {
   z-index: 999;
@@ -177,12 +313,12 @@ content {
   width: 100%;
   position: relative;
   background: transparent;
-  margin-top: 400px;
+  margin-top:200px;
 }
 
-.past-photo{
-  margin-top: 20vh;
-}
+/* .past-photo{
+  margin-top: 1vh;
+} */
 
 #container-fluid-home
 {
@@ -251,7 +387,7 @@ content {
 }
 
 .main-wrap h1 {
-  font-size: 180px;
+  font-size: 130px;
 }
 
 .head {
@@ -743,7 +879,7 @@ anim .main .main-cent .line .load.active {
   {
     display: none;
   }
-  .car-container
+  .car-container-home
   {
     display: none;
   }
@@ -779,6 +915,7 @@ anim .main .main-cent .line .load.active {
   .text {
     margin-left: 30px;
     width: 90%;
+    font-size: 20   px;
   }
   .juggad {
     right: 10px;
@@ -889,7 +1026,7 @@ anim .main .main-cent .line .load.active {
     font-size: 8px;
     display: none;
   }
-  .car-container
+  .car-container-home
   {
     display: none;
   }
@@ -1056,6 +1193,8 @@ anim .main .main-cent .line .load.active {
 .content-gray {
   background-color: #eee;
   padding: 1rem;
+  margin: 1em;
+  width: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1071,11 +1210,23 @@ anim .main .main-cent .line .load.active {
   align-items:end;
 }
 
+.contact
+{
+  width:40%;
+}
+.nearest
+{
+  width: 30%;
+}
+.transport
+{
+  width: 30%;
+}
+
 
 .ul-guidelines li {
   margin-left: 10px;
   list-style-type: circle;
-
 }
 
 #offContainer
@@ -1213,4 +1364,52 @@ li {
 
 .shape-5 {
   z-index: -1;
+}
+
+@media screen and (min-width:2500px)
+{
+  body
+  {
+    font-size: 36px;
+  }
+  .text
+  {
+    font-size: 1em;
+  }
+  .associate-sponsors > a
+  {
+    font-size: 40px !important;
+  }
+  .track-wrap p 
+  {
+    font-size: 0.8em;
+  }
+  .track-wrap h1
+  {
+    font-size: 1em;
+  }
+  .footer .credit p
+  {
+    font-size: 1em;
+  }
+  .ul-guidelines li
+  {
+    margin-left: 45px;
+  }
+  .team-content p
+  {
+    font-size: 0.7em;
+  }
+  .h4, h4
+  {
+    font-size: 1em;
+  }
+  .nearest > p, .transport > p
+  {
+    font-size: 0.9em;
+  }
+  .navbar-brand
+  {
+    font-size: 0.7em;
+  }
 }
