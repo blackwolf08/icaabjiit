@@ -416,16 +416,20 @@ content {
 }
 
 .text {
-  font-size: 30px;
+  font-size: 28px;
   color: black;
   margin-top: 30px;
-  line-height: 170%;
-  width: 680px;
-  font-weight: 800;
-  font-family: "Roboto Condensed";
-  margin-left: 150px;
+  line-height: 150%;
+  width: 80%;
+  /* width: 680px; */
+  font-weight: 100;
+  font-family: "Roboto Regular";
+  margin-left: 10%;
   margin-bottom: 30px;
   text-align: justify;
+}
+.bold{
+  font-weight: 800;
 }
 
 .zindex {
@@ -544,7 +548,7 @@ content {
 }
 
 .track-wrap p {
-  font-family: "Roboto Condensed";
+  font-family: "Roboto Regular";
   font-size: 15px;
   line-height: 150%;
   font-weight: 600;
@@ -828,8 +832,8 @@ anim .main .main-cent .line .load.active {
     font-size: 30px;
   }
   .text {
-    font-size: 26px;
-    width: 500px;
+    font-size: 24px;
+    /* width: 500px; */
     margin-left: 100px;
   }
   .juggad,
@@ -915,7 +919,7 @@ anim .main .main-cent .line .load.active {
   }
   .text {
     margin-left: 30px;
-    width: 90%;
+    /* width: 90%; */
     font-size: 20   px;
   }
   .juggad {
@@ -1304,6 +1308,7 @@ li {
   .team-row .img img {
     max-width: 225px;
   }
+  
 }
 
 @media screen and (max-width: 900px) {
