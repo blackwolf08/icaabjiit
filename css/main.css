@@ -230,11 +230,12 @@ lines .wrap {
   left: 0;
 }
 
-marquee{
+div > marquee{
   font-size: 170%; 
   color: red;
   width:80%;
 }
+
 .header-text {
   font-size: 1.2rem;
   color: #fff;
@@ -1107,6 +1108,11 @@ anim .main .main-cent .line .load.active {
     .logo1 {
       width: 70px;
     }
+    div > marquee{
+      font-size: 100%; 
+      color: red;
+       width:80%;
+    }
 }
   .header-text {
     font-size: 1rem !important;
@@ -1118,10 +1124,7 @@ anim .main .main-cent .line .load.active {
     font-size: 1rem !important;
     color: #193b63;
   }
-  marquee{
-    font-size: 100%; 
-    color: red; width:80%;
-  }
+  
 
 
 @media screen and (max-width: 1000px) {
