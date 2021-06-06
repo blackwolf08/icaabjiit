@@ -94,3 +94,17 @@ sr.reveal('.shape', {
   opacity: 0,
   origin: 'bottom',
 });
+
+const offli = document.getElementById("offContainer");
+const onli = document.getElementById("onContainer");
+const showOnline = function() {
+  offli.style.display="none";
+  onli.style.display="block";
+}
+const showOffline = function () {
+  offli.style.display="block";
+  onli.style.display="none";
+}
+
+document.getElementById("onPart").addEventListener("click", showOnline);
+document.getElementById("offPart").addEventListener("click", showOffline);
