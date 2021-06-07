@@ -230,6 +230,12 @@ lines .wrap {
   left: 0;
 }
 
+div > marquee{
+  font-size: 170%; 
+  color: red;
+  width:80%;
+}
+
 .header-text {
   font-size: 1.2rem;
   color: #fff;
@@ -362,7 +368,7 @@ content {
 .collab {
   font-size: 22px;
   position: absolute;
-  right: 10%;
+  right: 0;
   color: black;
   font-weight: 700;
   top: 15%;
@@ -1022,6 +1028,19 @@ anim .main .main-cent .line .load.active {
   }
 }
 
+@media screen and (max-aspect-ratio: 1850/1600) {
+  .car-container-home
+  {
+    display: none;
+  }
+  .main{
+    height: 100%;
+  }
+  .header{
+    height: 60%;
+  }
+}
+
 @media screen and (max-width: 800px){
   .impDates{
     position: absolute;
@@ -1089,6 +1108,11 @@ anim .main .main-cent .line .load.active {
     .logo1 {
       width: 70px;
     }
+    div > marquee{
+      font-size: 100%; 
+      color: red;
+       width:80%;
+    }
 }
   .header-text {
     font-size: 1rem !important;
@@ -1100,6 +1124,7 @@ anim .main .main-cent .line .load.active {
     font-size: 1rem !important;
     color: #193b63;
   }
+  
 
 
 @media screen and (max-width: 1000px) {
