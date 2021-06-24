@@ -502,6 +502,10 @@ content {
   text-align: left;
   margin-top: 30px;
 }
+.judges > h2 {
+  color: #8fd9a8;
+  font-size: 40px;
+} 
 
 .judge-content h1 {
   font-size: 40px;
