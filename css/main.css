@@ -480,8 +480,8 @@ content {
 }
 
 .team-content {
-  position: absolute;
-  left: 12px;
+  /* position: absolute;
+  left: 12px; */
   height: 90px;
 }
 
@@ -1226,8 +1226,8 @@ anim .main .main-cent .line .load.active {
 }
 
 .img.right .team-content {
-  right: -10px;
-  text-align: right;
+  right: -10px; 
+  /* text-align: right; */
 }
 
 .content-gray {
@@ -1295,7 +1295,7 @@ anim .main .main-cent .line .load.active {
 }
 
 .img.right {
-  text-align: right;
+  /* text-align: right; */
 }
 
 .team-social ul,
