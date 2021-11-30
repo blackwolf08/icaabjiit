@@ -1253,7 +1253,7 @@ anim .main .main-cent .line .load.active {
   -webkit-box-align:end;
   -ms-box-align: end;
   -ms-flex-align:end;
-  align-items:end;
+  align-items:start;
 }
 
 .contact
